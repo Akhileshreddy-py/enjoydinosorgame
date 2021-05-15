@@ -6,6 +6,10 @@ var dino=document.getElementById("dino");
 function jumpdino()
 {
   dino.classList.add("jump");  
-  setTimeout(()=>)
+  function removeclass()
+  {
+dino.classList.remove("jump");
+  }  
+  setTimeout(removeclass,1000);
 }
 addEventListener("keydown",jumpdino)
