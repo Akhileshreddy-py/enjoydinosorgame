@@ -10,6 +10,6 @@ function jumpdino()
   {
 dino.classList.remove("jump");
   }  
-  setTimeout(removeclass,1000);
+  setTimeout(removeclass,500);
 }
 addEventListener("keydown",jumpdino)

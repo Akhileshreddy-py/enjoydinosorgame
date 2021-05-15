@@ -28,7 +28,7 @@
   animation-iteration-count: infinite;
 }
 .jump {
-  animation: jump 100ms infinite;
+  animation: jump 500ms infinite;
 }
 @keyframes move {
   from {
@@ -40,10 +40,18 @@
 }
 
 @keyframes jump {
-  from {
+  0% {
     top: 170px;
   }
-  to {
-    top: 140px;
+  50% {
+    top: 120px;
   }
-}
+  51%
+  {
+top:120px;
+  }
+  100%
+  {
+    top:170px
+  }
+  }
