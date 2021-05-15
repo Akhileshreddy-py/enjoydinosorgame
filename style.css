@@ -27,6 +27,16 @@
 top:155px;
 left:285px;
 }
+@keyframes move
+{
+from
+{
+  left:285px;
+}
+to{
+left:-40px;
+}
+}
 
 
 
